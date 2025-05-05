@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Clock, Users, Briefcase, FileText } from 'lucide-react';
 
 export function Dashboard() {

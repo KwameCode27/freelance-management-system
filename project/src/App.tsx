@@ -9,6 +9,7 @@ import { Invoices } from './pages/Invoices';
 import { Login } from './pages/Login';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 
+
 const PrivateRoute = ({ children }: { children: React.ReactNode }) => {
   const { session } = useAuth();
   return session ? <>{children}</> : <Navigate to="/login" />;
